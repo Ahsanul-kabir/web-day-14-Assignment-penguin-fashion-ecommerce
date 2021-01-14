@@ -100,5 +100,15 @@ h2 {
 .text-top-rating {
     font-size: 20px;
     font-weight: 700;
+    color: var(--bg-primary);
+}
+
+.filled {
     color: goldenrod;
+    font-size: 0.8em;
+}
+
+.unfilled {
+    color: lightgray;
+    font-size: 0.8em;
 }
