@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
 /* customize */
 
 :root {
@@ -30,6 +36,11 @@ h1,
 h2 {
     font-family: 'Oswald', sans-serif;
     color: #363958;
+}
+
+h5 {
+    font-family: 'Oswald', sans-serif;
+    color: orangered;
 }
 
 
@@ -99,8 +110,10 @@ h2 {
     width: 90%;
     height: 50%;
     display: block;
-    background-color: azure;
-    border-radius: 1px solid red;
+    background-color: rgb(245, 240, 240);
+    border-radius: 20px;
+    margin-left: 5%;
+    margin-top: 5%;
 }
 
 .penguin-card-footer {
@@ -111,10 +124,20 @@ h2 {
 
 /* top rating section style */
 
+.rating-product-img {
+    width: 90%;
+    height: 50%;
+    display: block;
+    background-color: rgb(182, 194, 127);
+    border-radius: 20px;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
 .text-top-rating {
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 700;
-    color: var(--bg-primary);
+    color: rgb(165, 42, 42);
 }
 
 .filled {

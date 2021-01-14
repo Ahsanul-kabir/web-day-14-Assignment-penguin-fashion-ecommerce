@@ -16,32 +16,37 @@
 
 <body>
     <header>
-        <!-- navigation bar -->
-        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light-pink">
-            <div class="container">
-                <a class="navbar-brand" href="#"><img style="width: 50%;" src="images/Logo, Icon/Group 33072.png" alt=""></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <!-- navbar section -->
+        <nav class="container navbar fixed-top navbar-expand-lg navbar-light bg-light-pink">
+            <div class="row container-fluid ">
+                <div class="col-sm-7">
+                    <a class="navbar-brand" href="#"><img style="width: 50%;" src="images/Logo, Icon/Group 33072.png" alt=""></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Products</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">About Us</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contact Us</a>
-                        </li>
-                    </ul>
+                </div>
+
+                <div class="col-sm-5 ml-lg-auto my-lg-2">
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 ml-lg-auto">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Product</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">About us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contact us</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </nav>
-        <!-- end navigation bar -->
+        <!-- navbar section e -->
     </header>
 
     <main>
@@ -258,9 +263,9 @@
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">
                     <div class="card penguin-card h-100 shadow">
-                        <img class="product-img" src="images/Image/shirt-1.jpg" alt="...">
+                        <img class="rating-product-img" src="images/Image/t-shart-1.png" alt="...">
                         <div class="card-body">
-                            <p class="text-center text-top-rating">Gray Cotton Shirt</p>
+                            <p class="text-center text-top-rating" style="color: rgb(165,42,42);">White T-shirt</p>
                             <div class="ratings d-flex justify-content-center">
                                 <i class="fas fa-star filled"></i>
                                 <i class="fas fa-star filled"></i>
@@ -281,9 +286,9 @@
                 </div>
                 <div class="col">
                     <div class="card penguin-card h-100 shadow">
-                        <img class="product-img" src="images/Image/shirt-2.jpg" alt="...">
+                        <img class="rating-product-img" src="images/Image/t-shirt-2.png" alt="...">
                         <div class="card-body">
-                            <p class="text-center text-top-rating">Blue Cotton Shirt</p>
+                            <p class="text-center text-top-rating">Orange T-shart</p>
                             <div class="ratings d-flex justify-content-center">
                                 <i class="fas fa-star filled"></i>
                                 <i class="fas fa-star filled"></i>
@@ -304,9 +309,9 @@
                 </div>
                 <div class="col">
                     <div class="card penguin-card h-100 shadow">
-                        <img class="product-img" src="images/Image/shirt-3.jpg" alt="...">
+                        <img class="rating-product-img" src="images/Image/t-shart-3.png" alt="...">
                         <div class="card-body">
-                            <p class="text-center text-top-rating">Brown Cotton Shirt</p>
+                            <p class="text-center text-top-rating">Step Jacket Red</p>
                             <div class="ratings d-flex justify-content-center">
                                 <i class="fas fa-star filled"></i>
                                 <i class="fas fa-star filled"></i>
@@ -338,7 +343,7 @@
         </section>
 
         <!-- find location -->
-        <section class="mt-5 mb-5 container">
+        <section class="mt-5 container">
             <div class="embed-responsive embed-responsive-16by9">
                 <h1>Find Our Location</h1>
                 <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3652.095885694224!2d90.38499431498123!3d23.74395988459254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8b9c07b1693%3A0xe3defcf29e04f9e7!2sPriyoShop.com!5e0!3m2!1sen!2sbd!4v1610637019966!5m2!1sen!2sbd"
@@ -348,10 +353,10 @@
         <!-- end find location -->
 
         <!-- copyright -->
-        <footer class="footer g-bg-primary text-center py-4">
+        <footer class="footer container text-center mt-5 mb-5">
 
             <div class="container">
-                <small class="text-center" style="color: rgb(54,57,88);">&copy; All copyright reserved for <a href="#">Ahsanul Kabir</a></small>
+                <small style="color: rgb(54,57,88);">&copy; All copyright reserved for <a href="#">Ahsanul Kabir</a></small>
             </div>
         </footer>
         <!-- end copyright -->
