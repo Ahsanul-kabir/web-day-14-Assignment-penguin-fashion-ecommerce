@@ -22,17 +22,6 @@ h2 {
 }
 
 
-/* Template Text color */
-
-.text-primary {
-    color: var(--bg-primary) !important;
-}
-
-.text-gold {
-    color: var(--bg-golden) !important;
-}
-
-
 /* Template Spacing */
 
 .py-100 {
@@ -52,14 +41,6 @@ h2 {
 }
 
 
-/* Template Custom width */
-
-.width-100 {
-    width: 70px;
-    height: auto;
-}
-
-
 /* Tempalte Button style */
 
 .btn-primary {
@@ -75,12 +56,12 @@ h2 {
 /* Header style  */
 
 .navbar .nav-link {
-    font-weight: 600;
+    font-weight: 700;
     padding: 10px 20px !important;
 }
 
 
-/* Banner Text */
+/* top-demo Text */
 
 .top-demo-text h1 {
     font-size: 60px;
@@ -94,18 +75,11 @@ h2 {
 
 /* Product Section */
 
-.card-title {
-    font-size: 22px;
-    color: #363958;
-    font-weight: 600;
+.penguin-card {
+    border: 0;
 }
 
-.price {
-    font-size: 30px;
-    font-weight: 600;
-    color: #FABE4C;
-}
-
-.payment {
-    font-size: 25px;
+.penguin-card-footer {
+    border: 0;
+    background-color: white;
 }
