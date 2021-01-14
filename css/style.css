@@ -75,6 +75,11 @@ h2 {
 
 /* Product Section */
 
+.card-title {
+    color: brown;
+    font-weight: 700;
+}
+
 .penguin-card {
     border: 0;
 }
@@ -92,20 +97,8 @@ h2 {
     background-color: white;
 }
 
-
-/* ************* */
-
-
-/* Product Section */
-
-.card-title {
-    font-size: 22px;
-    color: #363958;
-    font-weight: 600;
-}
-
-.price {
-    font-size: 30px;
-    font-weight: 600;
-    color: #FABE4C;
+.text-top-rating {
+    font-size: 20px;
+    font-weight: 700;
+    color: goldenrod;
 }
