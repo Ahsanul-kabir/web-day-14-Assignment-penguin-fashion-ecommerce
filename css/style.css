@@ -82,9 +82,30 @@ h2 {
 .product-img {
     width: 90%;
     height: 50%;
+    display: block;
+    background-color: azure;
+    border-radius: 1px solid red;
 }
 
 .penguin-card-footer {
     border: 0;
     background-color: white;
+}
+
+
+/* ************* */
+
+
+/* Product Section */
+
+.card-title {
+    font-size: 22px;
+    color: #363958;
+    font-weight: 600;
+}
+
+.price {
+    font-size: 30px;
+    font-weight: 600;
+    color: #FABE4C;
 }
