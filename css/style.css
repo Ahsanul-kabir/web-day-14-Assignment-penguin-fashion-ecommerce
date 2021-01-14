@@ -1,3 +1,5 @@
+/* customize */
+
 :root {
     --bg-primary: #A4BC46;
     --bg-dark: #262729;
@@ -6,14 +8,23 @@
     --bg-golden: #FABE4C;
 }
 
+
+/* body style */
+
 body {
     font-family: 'Roboto', sans-serif;
 }
 
+
+/* style of ancor */
+
 a {
     text-decoration: none;
-    transition: ease all .3s;
+    transition: ease all .2s;
 }
+
+
+/* all needed heading  */
 
 h1,
 h2 {
