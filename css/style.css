@@ -24,7 +24,7 @@ a {
 }
 
 
-/* all needed heading  */
+/* all needed heading style */
 
 h1,
 h2 {
@@ -33,7 +33,7 @@ h2 {
 }
 
 
-/* Template Spacing */
+/* template spacing */
 
 .py-100 {
     padding-top: 100px;
@@ -45,14 +45,14 @@ h2 {
 }
 
 
-/* Template Background Color */
+/* template background color */
 
 .bg-light-pink {
     background-color: var(--light-pink);
 }
 
 
-/* Tempalte Button style */
+/* tempalte button style */
 
 .btn-primary {
     background-color: var(--bg-primary);
@@ -64,7 +64,7 @@ h2 {
 }
 
 
-/* Header style  */
+/* navbar style  */
 
 .navbar .nav-link {
     font-weight: 700;
@@ -84,7 +84,7 @@ h2 {
 }
 
 
-/* Product Section */
+/* product section style */
 
 .card-title {
     color: brown;
@@ -107,6 +107,9 @@ h2 {
     border: 0;
     background-color: white;
 }
+
+
+/* top rating section style */
 
 .text-top-rating {
     font-size: 20px;
